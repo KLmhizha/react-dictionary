@@ -1,0 +1,51 @@
+.Meaning {
+	background-color:  #435174;
+	box-shadow: 2px 4px 25px rgb(93 93 110 /10%);
+	margin: 100px 0 -80px;
+	padding: 20px 50px;
+}
+
+
+.Meaning h3 {
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 5px;
+	padding-top: 25px;
+}
+
+.Meaning .definition {
+	color: white;
+	font-style: italic;
+	font-weight: 400;
+	margin: 20px 0 0;
+}
+
+
+.Meaning .example {
+	color: white;
+	font-weight: 400;
+	margin: 20px 0 30px;
+}
+
+.Meaning .example::first-letter {
+	text-transform: capitalize;
+}
+
+
+@media (max-width: 800px) {
+	.Meaning {
+		padding: 5px;
+		margin-bottom: -50px;
+		margin-top: 70px;
+		margin-left: 10px;
+	}
+
+	.Meaning h3 {
+		font-size: 18px;
+	}
+
+	.Meaning .definition, .example {
+		font-size: 15px;
+	}
+}

@@ -1,0 +1,51 @@
+
+
+
+.App {
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	background-color: #394564;
+}
+
+.App p {
+	font-family: 'Poppins', sans-serif;
+}
+
+.App h2 {
+	margin: 65px 5px 0px;
+}
+
+
+.App footer {
+	color: white;
+	font-size: 14px;
+	font-weight: 200;
+	margin: 120px 0px 0px 20px;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+}
+
+.App footer .icon {
+	color: #61dbfb;
+}
+
+.git-hub-link {
+	text-decoration: none;
+}
+
+.git-hub-link:hover {
+	color: #435174;
+}
+
+@media (max-width: 800px) {
+
+	.App h2 {
+		margin: 50px 5px 0px;
+	}
+
+	.App footer {
+		margin-bottom: 5px;
+	}
+}
+
+

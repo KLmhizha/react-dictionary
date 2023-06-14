@@ -1,0 +1,38 @@
+.Phonetic {
+	color: white;
+	margin: 10px 0 15px 0px;
+}
+
+.Phonetic .fa-volume-up {
+	border: 1px solid white;
+	border-radius: 40px;
+	font-size: 16px;
+	padding: 10px;
+}
+
+.Phonetic .fa-volume-up:hover {
+	cursor: pointer;
+}
+
+.Phonetic .text {
+	color: white;
+	font-size: 15px;
+	font-weight: 300;
+	margin-left: 20px;
+}
+
+
+@media (max-width: 800px) {
+	.Phonetic {
+		margin: 5px 0px 10px 0px;
+	}
+
+	.Phonetic .fa-volume-up {
+		font-size: 14px;
+	}
+
+	.Phonetic .text {
+		font-size: 15px;
+		margin-left: 15px;
+	}
+}
