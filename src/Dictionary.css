@@ -27,7 +27,7 @@ h6 {
 }
 
 .Dictionary form {
-	margin: 15px auto;
+	margin-top: 15px;
 	width: 31%;
 }
 
@@ -59,7 +59,6 @@ h6 {
 	}
 
 	.Dictionary form {
-   margin: 15px auto;
 	 width: 75%;
 	}
 
