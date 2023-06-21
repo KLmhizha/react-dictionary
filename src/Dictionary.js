@@ -36,14 +36,12 @@ export default function Dictionary(props) {
         <p className="paragraph">Search for a word and get the meaning.</p>
         <section>
           <form onSubmit={handleSubmit}>
-            <div className="text-center">
               <input
                 type="search"
                 onChange={updateMeaning}
                 className="form"
                 placeholder="Type & press enter..."
               />
-            </div>
           </form>
         </section>
         <Results data={results} />
